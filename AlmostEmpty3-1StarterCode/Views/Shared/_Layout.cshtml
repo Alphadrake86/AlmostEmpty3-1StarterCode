@@ -4,8 +4,18 @@
 <head>
     <meta name="viewport" content="width=device-width" />
     <title> @ViewBag.Title </title>
+    <link rel="stylesheet" href ="~/css/site.css"/>
 </head>
 <body>
+    <nav>
+        <a asp-controller="Home" asp-action="Index">
+            Home
+        </a>
+
+        <a asp-controller="Home" asp-action="About">
+            about
+        </a>
+    </nav>
     <header>
         <h1>sbubby</h1>
     </header>

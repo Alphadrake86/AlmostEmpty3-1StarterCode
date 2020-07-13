@@ -18,5 +18,11 @@ namespace AlmostEmpty3_1StarterCode.Controllers
         {
             return View();
         }
+
+        public IActionResult Question()
+        {
+            ViewBag.Title = "Something";
+            return View();
+        }
     }
 }
